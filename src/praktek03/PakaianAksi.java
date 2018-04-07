@@ -11,6 +11,14 @@ public class PakaianAksi {
          p.setHarga(150000);
          
          p.cetakInfo();
+         
+         System.out.print("Merknya \t: ");
+         System.out.println(p.getMerk());
+         System.out.print("Warnanya \t: ");         
+         System.out.println(p.getWarna());
+         System.out.print("Harganya \t: ");
+         System.out.println(p.getHarga());
+         
     }
     
 }
