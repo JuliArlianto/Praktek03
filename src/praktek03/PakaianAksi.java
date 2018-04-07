@@ -19,6 +19,15 @@ public class PakaianAksi {
          System.out.print("Harganya \t: ");
          System.out.println(p.getHarga());
          
+         PakaianCelana pc = new PakaianCelana ();
+         pc.setMerk("Pull And Bear");
+         pc.setWarna("White");
+         pc.setHarga(300000);
+         pc.setJenisCelana("PENDEK");
+         pc.cetakInfo();
+         System.out.println("Jenis \t:"+pc.getJenisCelana());
+         pc.thorottle();
+         
     }
     
 }
