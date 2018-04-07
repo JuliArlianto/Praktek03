@@ -8,5 +8,15 @@ public class PakaianCelana extends Pakaian {
     void thorottle () {
         System.out.println("PANJANG");
     }
+
+    public String getJenisCelana() {
+        return jenisCelana;
+    }
+
+    public void setJenisCelana(String jenisCelana) {
+        this.jenisCelana = jenisCelana;
+    }
+    
+    
     
 }
